@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* .montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+    margin: 1.5rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.red{
+    background-color: #bb576c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow{
+    background-color: #da9334;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green{
+    background-color: #1c8a86;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue{
+    background-color: #6288d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameFlash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: white;
+}
